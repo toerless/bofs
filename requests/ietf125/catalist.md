@@ -101,7 +101,7 @@ We suggest the session be held as early as possible in the week, as several ques
     - Mailing list discussions.
     - Short summaries, not deep discussions.
     - Questions only for clarification.
-- Is something like MOPs / PQUIP useful?
+- Is something like MOPS / IoTOPS / PQUIP useful?
 - Open discussion [30 mins 110/120]
 - Closing remarks and next steps (chairs and AD) [10 mins 120/120]
 
