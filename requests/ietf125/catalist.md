@@ -25,6 +25,37 @@ The meeting is meant to provide a high level overview, and to figure out what wo
 
 This BoF is not for AI Proto or DMSC, it is for discussing the overall ecosystem and the needs of the community.
 
+## In Scope
+
+## Scope Focus: Agent-to-Agent (A2A) Communication
+
+This proposal focuses exclusively on the requirements, protocols, and architecture for communication between AI agents, specifically:
+
+* **Discovery and Interoperability:** Enabling agents built on disparate protocols to find and interact with one another.
+* **A2A Architectures:** Standardizing the interface and interaction models between independent AI entities.
+
+## Out of Scope
+
+The following topics are considered out of scope for this BoF:
+
+### 1. Networking for AI (Net4AI)
+
+Optimizing network infrastructure to support AI workloads. This includes:
+
+* **Traffic Engineering:** Provisioning of pipes, load sharing, and traffic steering.
+* **Compute Coordination:** Mechanisms to arrange or share processing loads during AI training.
+* **Primary Venues:** Work typically addressed in the **RTG** area.
+
+### 2. AI for Networking (AI4Net)
+
+Using AI/ML techniques to manage or optimize network operations. This includes:
+
+* **Operational Logic:** Telemetry collection, data distribution, and fault correlation/prediction.
+* **Network Management:** Using AI to automate or operate the network.
+* **Primary Venues:** Work typically addressed in **OPS**, **NMRG**, **RTG**, and **INT**.
+
+
+
 ## Required Details
 
 Status: Not WG Forming
