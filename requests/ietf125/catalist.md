@@ -87,7 +87,7 @@ Mailing lists discussing AI & Agent communication:
 - https://mailman3.ietf.org/mailman3/lists/agent2agent@ietf.org/
 - https://mailman3.ietf.org/mailman3/lists/dmsc@ietf.org/
 
-We suggest the session be held as earlier as possible in the week, as several questions raised will be discussed during side meetings during IETF 125.
+We suggest the session be held as early as possible in the week, as several questions raised will be discussed during side meetings during IETF 125.
 
 ## Agenda
 
