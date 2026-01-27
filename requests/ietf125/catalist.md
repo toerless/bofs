@@ -12,27 +12,24 @@ It was hard for IETF participants to follow all of these meetings especially con
 This BoF provides an opportunity to:
 
 - Briefly summarize the ecosystem, including work happening outside of the IETF, at W3C, 3GPP, and the Linux Foundation.
-- Briefly summarize work that is happening in IETF side meetings and that is progressing on mailing lists.
-- Specifically DMSC and AIProto.
+- Briefly summarize work that is happening in IETF side meetings and that is progressing on mailing lists (specifically DMSC and AIProto).
 - Answer questions like what work should be pursued in the IETF?
 - Identify and share existing IETF WGs that are already addressing some of the use cases tangent to agent communication.
 
 CATALIST is explicitly not intended to pick between competing proposals, nor to prematurely define any end-to-end agent communication protocols. 
-Instead, the meeting will provide a forum to share information about these efforts and to offer the community an ability to see if any kind of recurring meeting is useful for coordination purposes or not.
+Instead, the meeting will provide a forum to share information about these efforts and to offer the community an ability to see if any kind of recurring meeting is useful for coordination purposes.
 
 Note that this BoF is not intended to squelch discussions at side meetings which can continue to be useful to develop and discuss ideas in detail. 
 The meeting is meant to provide a high level overview, and to figure out what would be helpful to the IETF community regarding trends in AI & Agent communication.
 
-This BoF is not for AIProto or DMSC, it is for discussing the overall ecosystem and the needs of the community.
-
-## In Scope
+This BoF is not for AIProto or DMSC which are evolving on their own mailing lists: it is for discussing the overall ecosystem and the needs of the community.
 
 ## Scope Focus: Agent-to-Agent (A2A) Communication
 
 This proposal focuses exclusively on the requirements, protocols, and architecture for communication between AI agents, specifically:
 
 * **Discovery and Interoperability:** Enabling agents built on disparate protocols to find and interact with one another.
-* **Agent-to-Agent Architectures:** Standardizing the interface and interaction models between independent AI agents.
+* **Agent-to-Agent Architectures:** Standardizing the interfaces and interaction models between independent AI agents.
 
 ## Out of Scope
 
@@ -58,13 +55,16 @@ Using AI/ML techniques to manage or optimize network operations. This includes:
 
 Status: Not WG Forming
 
-Responsible Area: ART and WIT are the principal Areas. SEC, INT, OPS, and RTG have an interest
+Responsible Area: ART. WIT, SEC, INT, OPS, and RTG have an interest.
 
 Responsible ADs: Andy Newton, Orie Steele
 
 BOF proponents:
    Adrian Farrel <adrian@olddog.co.uk>
    Toerless Eckert <tte@cs.fau.de>
+   Kehan Yao <khyao78@gmail.com>
+   Aijun Wang <wangaijun@tsinghua.org.cn>
+   
 
 Number of people expected to attend: 200
 
@@ -90,15 +90,19 @@ We suggest the session be held as early as possible in the week, so that questio
 - Summary of efforts and their scope. [60 mins 70/120]
   - Side meetings at IETF 124 and 123.
     e.g.: "AI Agent Protocols" (AIProto), "AI Network", "AI Agent Discovery", "AI-Agent Network Requirements and Protocols" (ANP), "Distributed Micro Services Communication" (DMSC), "IoA@Enterprise", ...
-  - Non-side meeting mailing list discussions: agent2agent@ietf.org.
   - Outside the IETF: W3C, 3GPP, and the Linux Foundation.
-  - *Short summaries, not deep discussions*
-  - *Questions only for clarification*
+  - What to cover
+    - What is the main purpose/direction of the effort.
+    - What has happened in mailing list discussions.
+    - *Short summaries, not deep discussions*
+    - *Questions only for clarification*  
+
 - Open discussion [40 mins 110/120]
   - What broad topics belong in the IETF scope?
   - What coordination activity would be useful?
-  - Would a "Special Interest WG" (MOPS / IoTOPS / PQUIP)  be useful?
-  - Would it be useful to have similar future meetings?
+    - Is a coordination working group (like MOPS / IoTOPS / PQUIP) useful?
+    - Would it be useful to have similar future meetings?
+
 - Closing remarks and next steps (chairs and AD) [10 mins 120/120]
 
 ## Relevant I-Ds and Links
@@ -108,6 +112,9 @@ We suggest the session be held as early as possible in the week, so that questio
 IETF123 and IETF124 side meetings:
 - https://trello.com/b/6kmZPwOx/ietf-123-side-meeting-scheduling
 - https://trello.com/b/s1hNprRf/ietf-124-side-meeting-scheduling
+The dmsc@ietf.org mailing list is to explore solutions for the comprehensive communication architecture that enables secure and efficient collaboration between heterogeneous AI agents, defining function modules, their interoperable protocols and mechanisms that enables AI agents to collaborate effectively to accomplish complex tasks.
+- This list discusses possible areas for standardization related to AI agents. 
+- The list might result in proposing a BoF, a side meeting or an IAB Workshop. 
 
 agent2agent@ietf.org (https://mailman3.ietf.org/mailman3/lists/agent2agent@ietf.org/)
 - Initial mailing list created by IESG to allow coordination/exchange for possible areas for standardization related to AI agents. 
