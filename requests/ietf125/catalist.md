@@ -38,7 +38,7 @@ This proposal focuses exclusively on the requirements, protocols, and architectu
 
 The following topics are considered out of scope for this BoF:
 
-### 1. Networking for AI (Net4AI)
+### Networking for AI (Net4AI)
 
 Optimizing network infrastructure to support AI workloads. This includes:
 
@@ -46,15 +46,13 @@ Optimizing network infrastructure to support AI workloads. This includes:
 * **Compute Coordination:** Mechanisms to arrange or share processing loads during AI training.
 * **Primary Venues:** Work typically addressed in the **RTG** area.
 
-### 2. AI for Networking (AI4Net)
+### AI for Networking (AI4Net)
 
 Using AI/ML techniques to manage or optimize network operations. This includes:
 
 * **Operational Logic:** Telemetry collection, data distribution, and fault correlation/prediction.
 * **Network Management:** Using AI to automate or operate the network.
 * **Primary Venues:** Work typically addressed in **OPS**, **NMRG**, **RTG**, and **INT**.
-
-
 
 ## Required Details
 
@@ -79,50 +77,54 @@ Conflicts (whole Areas and/or WGs)
 
 ## Information for IAB/IESG
 
-Several recent side meetings discussed Agent-to-Agent communication, including the following from IETF 123 and 124 
-IETF123: https://trello.com/b/6kmZPwOx/ietf-123-side-meeting-scheduling
-IETF124: https://trello.com/b/s1hNprRf/ietf-124-side-meeting-scheduling
+Several recent side meetings discussed Agent-to-Agent communication, including the following from IETF 123 and 124. See  see [References](#relevant-i-ds-and-links) below for the side meeting Trello URLs as well as individual proposal mailing lists (if they exist).
 
-Mailing lists discussing AI & Agent communication:
-- https://mailman3.ietf.org/mailman3/lists/agent2agent@ietf.org/
-- https://mailman3.ietf.org/mailman3/lists/dmsc@ietf.org/
+Note the IESG created agent2agent@ietf.org mailing list for coordination / discussion of the topic.
 
-We suggest the session be held as early as possible in the week, as several questions raised will be discussed during side meetings during IETF 125.
+We suggest the session be held as early as possible in the week, so that questions raised or suggestions made can be discussed during side meetings later in the week at IETF 125.
 
 ## Agenda
 
 - Administrivia (chairs) [5 mins 05/120]
 - Purpose of BoF (chairs/AD) [5 mins 10/120]
-- Summary of efforts and their scope. [70 mins 80/120]
-  - Outside the IETF, at W3C, 3GPP, and the Linux Foundation.
+- Summary of efforts and their scope. [60 mins 70/120]
   - Side meetings at IETF 124 and 123.
-    - AIProto
-    - DMSC
-    - Mailing list discussions.
-    - Short summaries, not deep discussions.
-    - Questions only for clarification.
-- Is something like MOPS / IoTOPS / PQUIP useful?
-- Open discussion [30 mins 110/120]
+    e.g.: "AI Agent Protocols" (AIProto), "AI Network", "AI Agent Discovery", "AI-Agent Network Requirements and Protocols" (ANP), "Distributed Micro Services Communication" (DMSC), "IoA@Enterprise", ...
+  - Non-side meeting mailing list discussions: agent2agent@ietf.org.
+  - Outside the IETF: W3C, 3GPP, and the Linux Foundation.
+  - *Short summaries, not deep discussions*
+  - *Questions only for clarification*
+- Open discussion [40 mins 110/120]
   - What broad topics belong in the IETF scope?
   - What coordination activity would be useful?
+  - Would a "Special Interest WG" (MOPS / IoTOPS / PQUIP)  be useful?
   - Would it be useful to have similar future meetings?
 - Closing remarks and next steps (chairs and AD) [10 mins 120/120]
 
 ## Relevant I-Ds and Links
 
-The agent2agent@ietf.org mailing list discusses possible areas for standardization related to AI agents.
-These include: 
-- standardized ways for AI agents to discover each other, 
-- to discover resources like APIs and documents, 
-- to converse with each other, and so on.
+### Cross proposals
 
-The dmsc@ietf.org will explore solutions for the comprehensive communication architecture that enables secure and efficient collaboration between heterogeneous AI agents, defining function modules, their interoperable protocols and mechanisms that enables AI agents to collaborate effectively to accomplish complex tasks.
-This list discusses possible areas for standardization related to AI agents. 
-The list might result in proposing a BoF, a side meeting or an IAB Workshop. 
-See the IETF 124 side meeting schedule for examples of the kind of work that is being discussed: https://trello.com/b/s1hNprRf/ietf-124-side-meeting-scheduling
+IETF123 and IETF124 side meetings:
+- https://trello.com/b/6kmZPwOx/ietf-123-side-meeting-scheduling
+- https://trello.com/b/s1hNprRf/ietf-124-side-meeting-scheduling
 
-Further links to be added depending on agenda items, but see list of prior work above.
+agent2agent@ietf.org (https://mailman3.ietf.org/mailman3/lists/agent2agent@ietf.org/)
+- Initial mailing list created by IESG to allow coordination/exchange for possible areas for standardization related to AI agents. 
+   - standardized ways for AI agents to discover each other, 
+   - to discover resources like APIs and documents, 
+   - to converse with each other, and so on.
 
 We will also work on creating a wiki.ietf.org page for tracking the coordination effort. 
 
 This will provide a shared repository where proponents of related initiatives can briefly summarise their work and link to the relevant home pages, key documents, and other supporting information (e.g., drafts, GitHub repositories, mailing lists, and slide decks).
+
+### Individual proposals
+
+dmsc@ietf.org (https://mailman3.ietf.org/mailman3/lists/dmsc@ietf.org/)
+- Now used in conjunction with proposed solutions related to the DMSC BoF proposal:
+- solutions for the comprehensive communication architecture that enables secure and efficient collaboration between heterogeneous AI agents, defining function modules, their interoperable protocols and mechanisms that enables AI agents to collaborate effectively to accomplish complex tasks.
+
+Further links to be added depending on agenda items.
+
+
