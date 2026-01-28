@@ -99,7 +99,7 @@ The session should be scheduled as early as possible in the week to allow questi
     - "AI Agent Discovery"
     - "AI-Agent Network Requirements and Protocols" (ANP)
     - "Distributed Micro Services Communication" (DMSC)
-    - "IoA@Enterprise"
+    - "IoA@Enterprise" (ACIP - Agent Communications Internet Protocol)
     - Other related initiatives
   - Work outside the IETF: W3C, 3GPP, and the Linux Foundation
 
