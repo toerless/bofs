@@ -4,126 +4,142 @@ Coordinating Agent To Agent List of efforts (CATALIST)
 
 ## Description 
 
-Non-WG-Forming effort to coordinate among the many attempts to develop IETF work around AI agent-to-agent communications.
+This is a non-WG-forming effort to coordinate among the various initiatives to develop IETF work on AI agent-to-agent communications.
 
-Over the last few IETF meetings there have been a considerable number of side meetings focused on agent-to-agent communications (especially for AI agents). 
-It was hard for IETF participants to follow all of these meetings especially considering conflicts with the regular IETF agendas.
+Over the last several IETF meetings, there have been numerous side meetings focused on agent-to-agent communications, particularly for AI agents. The scheduling conflicts with regular IETF agendas have made it difficult for participants to follow all of these meetings.
 
 This BoF provides an opportunity to:
 
-- Briefly summarize the ecosystem, including work happening outside of the IETF, at W3C, 3GPP, and the Linux Foundation.
-- Briefly summarize work that is happening in IETF side meetings and that is progressing on mailing lists (specifically DMSC and AIProto).
-- Answer questions like what work should be pursued in the IETF?
-- Identify and share existing IETF WGs that are already addressing some of the use cases tangent to agent communication.
+- Summarize the ecosystem, including work occurring outside the IETF at W3C, 3GPP, and the Linux Foundation
+- Summarize work occurring in IETF side meetings and progressing on mailing lists.
+- Identify what work should be pursued in the IETF.
+- Identify and share existing IETF working groups that are addressing use cases related to agent communication.
 
-CATALIST is explicitly not intended to pick between competing proposals, nor to prematurely define any end-to-end agent communication protocols. 
-Instead, the meeting will provide a forum to share information about these efforts and to offer the community an ability to see if any kind of recurring meeting is useful for coordination purposes.
+CATALIST is explicitly not intended to select between competing proposals, nor to prematurely define any end-to-end agent communication protocols. 
+Instead, the meeting will provide a forum to share information about these efforts and to determine whether any recurring meeting would be useful for coordination purposes.
 
-Note that this BoF is not intended to squelch discussions at side meetings which can continue to be useful to develop and discuss ideas in detail. 
-The meeting is meant to provide a high level overview, and to figure out what would be helpful to the IETF community regarding trends in AI & Agent communication.
+This BoF is not intended to replace discussions at side meetings, which can continue to be useful for developing and discussing ideas in detail. 
+The meeting is intended to provide a high-level overview and to determine what would be helpful to the IETF community regarding trends in AI and agent communication.
 
-This BoF is not for AIProto or DMSC which are evolving on their own mailing lists: it is for discussing the overall ecosystem and the needs of the community.
+This BoF is not for AIProto or DMSC, which are evolving on their own mailing lists; it is for discussing the overall ecosystem and the needs of the community.
 
 ## Scope Focus: Agent-to-Agent (A2A) Communication
 
 This proposal focuses exclusively on the requirements, protocols, and architecture for communication between AI agents, specifically:
 
-* **Discovery and Interoperability:** Enabling agents built on disparate protocols to find and interact with one another.
-* **Agent-to-Agent Architectures:** Standardizing the interfaces and interaction models between independent AI agents.
+- **Discovery and Interoperability:** Enabling agents built on disparate protocols to find and interact with one another
+- **Agent-to-Agent Architectures:** Standardizing the interfaces and interaction models between independent AI agents
 
 ## Out of Scope
 
 The following topics are considered out of scope for this BoF:
 
-### 1. Networking for AI (Net4AI)
+### Networking for AI (Net4AI)
 
 Optimizing network infrastructure to support AI workloads. This includes:
 
-* **Traffic Engineering:** Provisioning of pipes, load sharing, and traffic steering.
-* **Compute Coordination:** Mechanisms to arrange or share processing loads during AI training.
-* **Primary Venues:** Work typically addressed in the **RTG** area.
+- **Traffic Engineering:** Provisioning of pipes, load sharing, and traffic steering
+- **Compute Coordination:** Mechanisms to arrange or share processing loads during AI training
+- **Primary Venues:** Work typically addressed in the **RTG** area
 
-### 2. AI for Networking (AI4Net)
+### AI for Networking (AI4Net)
 
 Using AI/ML techniques to manage or optimize network operations. This includes:
 
-* **Operational Logic:** Telemetry collection, data distribution, and fault correlation/prediction.
-* **Network Management:** Using AI to automate or operate the network.
-* **Primary Venues:** Work typically addressed in **OPS**, **NMRG**, **RTG**, and **INT**.
+- **Operational Logic:** Telemetry collection, data distribution, and fault correlation/prediction
+- **Network Management:** Using AI to automate or operate the network
+- **Primary Venues:** Work typically addressed in **OPS**, **NMRG**, **RTG**, and **INT**
 
 ## Required Details
 
-Status: Not WG Forming
+**Status:** Not WG Forming
 
-Responsible Area: ART. WIT, SEC, INT, OPS, and RTG have an interest.
+**Responsible Area:** ART. WIT, SEC, INT, OPS, and RTG have an interest.
 
-Responsible ADs: Andy Newton, Orie Steele
+**Responsible ADs:** Andy Newton, Orie Steele
+**BOF Chairs:** 
+- Adrian Farrel <adrian@olddog.co.uk>
+- Yingzhen Qu <yingzhen.ietf@gmail.com>
 
-BOF proponents:
-   Adrian Farrel <adrian@olddog.co.uk>
-   Toerless Eckert <tte@cs.fau.de>
-   Kehan Yao <khyao78@gmail.com>
-   Aijun Wang <wangaijun@tsinghua.org.cn>
-   
+**BOF Proponents:**
+- Toerless Eckert <tte@cs.fau.de>
+- Kehan Yao <khyao78@gmail.com>
+- Aijun Wang <wangaijun@tsinghua.org.cn>
+- Suresh Krishnan <suresh.krishnan@gmail.com>
 
-Number of people expected to attend: 200
+**Number of people expected to attend:** 200
 
-Length of session: 2 hours
+**Length of session:** 2 hours
 
-Conflicts (whole Areas and/or WGs)
-   Chair Conflicts: TBD
-   Technology Overlap: ART, WIT
-   Key Participant Conflict: MPLS, CATS, ANIMA
+**Conflicts (whole Areas and/or WGs):**
+- Chair Conflicts: CATS, MPLS, TEAS, LSR, RTGWG
+- Technology Overlap: ART, WIT
+- Key Participant Conflict: MPLS, CATS, ANIMA, IAB, ANRW, IOTDir, BPF, AICONTROL,  AIPref, PCE, OPSAWG
 
 ## Information for IAB/IESG
 
-Several recent side meetings discussed Agent-to-Agent communication, including the following from IETF 123 and 124 
-IETF123: https://trello.com/b/6kmZPwOx/ietf-123-side-meeting-scheduling
-IETF124: https://trello.com/b/s1hNprRf/ietf-124-side-meeting-scheduling
+Several recent side meetings have discussed Agent-to-Agent communication, including meetings at IETF 123 and 124. See [References](#relevant-i-ds-and-links) below for the side meeting Trello URLs and individual proposal mailing lists.
 
-Mailing lists discussing AI & Agent communication:
-- https://mailman3.ietf.org/mailman3/lists/agent2agent@ietf.org/
-- https://mailman3.ietf.org/mailman3/lists/dmsc@ietf.org/
+The IESG has created the agent2agent@ietf.org mailing list for coordination and discussion of this topic.
 
-We suggest the session be held as early as possible in the week, as several questions raised will be discussed during side meetings during IETF 125.
+The session should be scheduled as early as possible in the week to allow questions raised or suggestions made to be discussed during side meetings later in the week at IETF 125.
 
 ## Agenda
 
-- Administrivia (chairs) [5 mins 05/120]
-- Purpose of BoF (chairs/AD) [5 mins 10/120]
-- Summary of efforts and their scope. [60 mins 70/120]
-  - Outside the IETF, at W3C, 3GPP, and the Linux Foundation.
-  - Side meetings at IETF 124 and 123 and other IETF efforts.
-    - AIProto
-    - DMSC
-    - DNS-based agent discovery
-      
-    - What to cover
-      - What is the main purpose/direction of the effort.
-      - What has happened in mailing list discussions.
-      - Short summaries, not deep discussions.
-      - Questions only for clarification.
-- Open discussion [40 mins 110/120]
+- Administrivia (chairs) [5 minutes]
+- Purpose of BoF (chairs/AD) [5 minutes]
+- Summary of efforts and their scope [60 minutes]
+  - For each effort, present:
+    - Main purpose and direction
+    - Summary of mailing list discussions
+    - *Note: Short summaries only, not deep discussions*
+    - *Questions should be for clarification only*
+  - Side meetings at IETF 123 and 124, including:
+    - "AI Agent Protocols" (AIProto)
+    - "AI Network"
+    - "AI Agent Discovery"
+    - "AI-Agent Network Requirements and Protocols" (ANP)
+    - "Distributed Micro Services Communication" (DMSC)
+    - "IoA@Enterprise"
+    - Other related initiatives
+  - Work outside the IETF: W3C, 3GPP, and the Linux Foundation
+
+- Open discussion [40 minutes]
   - What broad topics belong in the IETF scope?
   - What coordination activity would be useful?
-    - Is a coordination working group (like MOPS / IoTOPS / PQUIP) useful?
-    - Would it be useful to have similar future BoF meetings?
-- Closing remarks and next steps (chairs and AD) [10 mins 120/120]
+    - Would a coordination working group (similar to MOPS, IoTOPS, or PQUIP) be useful?
+    - Would similar future meetings be useful?
+
+- Closing remarks and next steps (chairs and AD) [10 minutes]
 
 ## Relevant I-Ds and Links
 
-The agent2agent@ietf.org non working group mailing list discusses possible areas for standardization related to AI agents.
-These include: 
-- standardized ways for AI agents to discover each other, 
-- to discover resources like APIs and documents, 
-- to converse with each other, and so on.
-- [aiproto-draft-charter](https://github.com/jdrosen/aiproto-wg/blob/main/charter.txt)
+### Side Meetings
 
-The dmsc@ietf.org non working group mailing list will explore solutions for the comprehensive communication architecture that enables secure and efficient collaboration between heterogeneous AI agents, defining function modules, their interoperable protocols and mechanisms that enables AI agents to collaborate effectively to accomplish complex tasks.
-This list discusses possible areas for standardization related to AI agents. 
+IETF 123 and IETF 124 side meetings:
+- https://trello.com/b/6kmZPwOx/ietf-123-side-meeting-scheduling
+- https://trello.com/b/s1hNprRf/ietf-124-side-meeting-scheduling
 
-- [dmsc-draft-charter](https://github.com/ietf-dmsc/Charter/blob/main/dmsc-charter.md)
+### Mailing Lists
 
-Further links to be added depending on agenda items, but see list of prior work above.
+**agent2agent@ietf.org** (https://mailman3.ietf.org/mailman3/lists/agent2agent@ietf.org/)
 
-The catalist BoF will provide a shared repository where proponents of related initiatives can briefly summarise their work and link to the relevant home pages, key documents, and other supporting information (e.g., drafts, GitHub repositories, mailing lists, and slide decks).
+Non-working group mailing list created by the IESG to coordinate and exchange information on possible areas for standardization related to AI agents. Topics include:
+- Standardized ways for AI agents to discover each other
+- Discovery of resources such as APIs and documents
+- Protocols for agent-to-agent communication
+
+**dmsc@ietf.org** (https://mailman3.ietf.org/mailman3/lists/dmsc@ietf.org/)
+
+Non-working group mailing list exploring solutions for comprehensive communication architecture that enables secure and efficient collaboration between heterogeneous AI agents. The list focuses on defining function modules, interoperable protocols, and mechanisms that enable AI agents to collaborate effectively to accomplish complex tasks. This list may result in proposing a BoF, side meeting, or IAB Workshop.
+
+### Draft Charters
+
+- [AIProto draft charter](https://github.com/jdrosen/aiproto-wg/blob/main/charter.txt)
+- [DMSC draft charter](https://github.com/ietf-dmsc/Charter/blob/main/dmsc-charter.md)
+
+### Repository
+
+The CATALIST BoF will provide a shared repository where proponents of related initiatives can summarize their work and link to relevant home pages, key documents, and supporting information (e.g., drafts, GitHub repositories, mailing lists, and slide decks).
+
+Further links will be added as agenda items are finalized.
